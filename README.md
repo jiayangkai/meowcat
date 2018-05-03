@@ -6,7 +6,7 @@
 我们是来自棒棒团的成员，我们想做个可以帮助流浪猫的一个小程序，同时也可以提升我们的能力。
 
 
-![](image/intro.jpg?raw=true)
+![](https://raw.githubusercontent.com/Tex-wz/meowcat/master/images/intro.jpg)
 
 # 项目结构
 ```sh
