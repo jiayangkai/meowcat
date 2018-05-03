@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cat/add/add",
+    "pages/cat/view/view",
+    "pages/profile/profile",
+    "pages/profile/settings/settings",
+    "pages/profile/notifications/notifications",
+    "pages/profile/notices/notices",
+    "pages/community/community",
+    "pages/timeline/timeline"
+  ]
+}
