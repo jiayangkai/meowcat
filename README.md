@@ -36,3 +36,5 @@ Meowcat
 └── utils 
   └── validate.js # 所有验证用户提交信息都在这边
 ```
+# 组件分配
+![](https://cdn.rawgit.com/Tex-wz/meowcat/9ee1b640/images/%E7%BB%84%E4%BB%B6%E5%88%86%E9%85%8D.svg)
