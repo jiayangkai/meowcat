@@ -1,1 +1,5 @@
-{}
+{  
+  "usingComponents": {  
+    "comMap": "../../components/map/map"  
+  }  
+}  
