@@ -1,2 +1,3 @@
-<!--components/map/map.wxml-->
-<text>components/map/map.wxml</text>
+<view>
+  <map class='map' ></map>
+</view>

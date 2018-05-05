@@ -5,15 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-      picurl:[
-          "catpic/1.jpeg",
-          "catpic/2.jpeg",
-          "catpic/3.jpeg",
-          "catpic/4.jpeg",
-          "catpic/5.jpeg",
-          "catpic/6.jpeg",
-          "catpic/7.jpeg"
-      ]
   
   },
 
