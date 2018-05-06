@@ -1,0 +1,3 @@
+<view class="currentlocation" style="left:{{left}};top:{{top}}">
+{{innerText}}
+</view>

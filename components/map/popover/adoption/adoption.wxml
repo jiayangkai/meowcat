@@ -1,0 +1,5 @@
+<view class="location" style="left:{{left}};top:{{top}}">
+<text class="title">{{title}}</text>
+<text class="location">{{location}}</text>
+<button class="button">导航</button>
+</view>
