@@ -51,11 +51,36 @@ Component({
       longitude: null,
       width: 30,
       height: 30,
+      anchor:{x: 1, y: 1 },
       callout: {
         // 文本 @type {String}
         content: ' 当前位置  ',
         // 文本颜色 @type {String}
         color: "#CD9057",
+        // 背景颜色 @type {String}
+        bgColor: "#ffffff",
+        // 文本边缘留白 @type {Number}
+        padding: 8,
+        // callout边框圆角 @type {Number}
+        borderRadius: 10,
+        // 文字大小 @type {Number}
+        fontSize: 14,
+        // 	'BYCLICK':点击显示; 'ALWAYS':常显  @type {String}
+        display: "ALWAYS"
+      }
+    },
+    {
+      id: '1',
+      latitude: null,
+      longitude: null,
+      width: 40,
+      height: 40,
+      iconPath: './image/c1.jpg',
+      label: {
+        x: -15,
+        y: -15,
+        // 文本 @type {String}
+        content: '   ',
         // 背景颜色 @type {String}
         bgColor: "#ffffff",
         // 文本边缘留白 @type {Number}
@@ -87,8 +112,12 @@ Component({
           speed: res.speed,
           accuracy: res.accuracy,
           'markers[0].latitude': res.latitude,
-          'markers[0].longitude': res.longitude
+          'markers[0].longitude': res.longitude,
+          'markers[1].latitude': res.latitude,
+          'markers[1].longitude': res.longitude
         })
+
+        console.log(res)
       }
     })
   },
