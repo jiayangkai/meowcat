@@ -1,3 +1,20 @@
 <view>
-  <map class='map' ></map>
+   <map id='Map' 
+      class='map' 
+      latitude='{{latitude}}'
+      longitude='{{longitude}}' 
+      markers='{{markers}}'
+      show-location
+      >
+      <!--跳转到添加猫按钮-->
+     <cover-view class='go-add-cat-wrapper'>
+      <cover-view class='go-add-cat-shadow'></cover-view>
+      <cover-view class='go-add-cat' bindtap='navigateToAddCat'>找到猫了</cover-view>
+     </cover-view>
+     <!--回来这里按钮 -->
+     <cover-view class='current-location-wrapper'>
+      <cover-view class='current-location-shadow'></cover-view>
+      <cover-view class='current-location' bindtap='currentLocation'></cover-view>
+     </cover-view>
+  </map> 
 </view>

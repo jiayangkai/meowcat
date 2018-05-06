@@ -1,2 +1,6 @@
 <!--pages/home/home.wxml-->
-<comMap modal-hidden="{{is_modal_Hidden}}" modal-msg="{{is_modal_Msg}}"/>  
+<view>
+  <!--地图组件  -->
+  <component-map navigateToAddCat='{{navigateToAddCat}}'>
+  </component-map> 
+</view>
