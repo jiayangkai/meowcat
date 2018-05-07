@@ -6,7 +6,7 @@
 我们是来自棒棒团的成员，我们想做个可以帮助流浪猫的一个小程序，同时也可以提升我们的能力。
 
 
-![](image/intro.jpg?raw=true)
+![](https://raw.githubusercontent.com/Tex-wz/meowcat/master/images/intro.jpg)
 
 # 项目结构
 ```sh
@@ -36,3 +36,5 @@ Meowcat
 └── utils 
   └── validate.js # 所有验证用户提交信息都在这边
 ```
+# 组件分配
+![](https://cdn.rawgit.com/Tex-wz/meowcat/9ee1b640/images/%E7%BB%84%E4%BB%B6%E5%88%86%E9%85%8D.svg)

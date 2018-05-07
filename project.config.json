@@ -1,8 +1,5 @@
 {
 	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -11,9 +8,10 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
-	"appid": "touristappid",
-	"projectname": "meowcat",
+	"libVersion": "1.9.94",
+	"appid": "",
+	"projectname": "meowact",
+	"isGameTourist": false,
 	"condition": {
 		"search": {
 			"current": -1,

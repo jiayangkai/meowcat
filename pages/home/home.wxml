@@ -1,2 +1,2 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<comMap modal-hidden="{{is_modal_Hidden}}" modal-msg="{{is_modal_Msg}}"/>  
