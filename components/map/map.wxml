@@ -4,6 +4,8 @@
       latitude='{{latitude}}'
       longitude='{{longitude}}' 
       markers='{{markers}}'
+      bindcallouttap="markertap" 
+      bindmarkertap="markertap" 
       show-location
       >
       <!--跳转到添加猫按钮-->
@@ -14,7 +16,9 @@
      <!--回来这里按钮 -->
      <cover-view class='current-location-wrapper'>
       <cover-view class='current-location-shadow'></cover-view>
-      <cover-view class='current-location' bindtap='currentLocation'></cover-view>
+      <cover-view class='current-location' bindtap='currentLocation'>
+        <cover-image class='navImg' src='../../images/nav.png'></cover-image>
+      </cover-view>
      </cover-view>
   </map> 
 </view>

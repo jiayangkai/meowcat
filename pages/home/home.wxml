@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <view>
-  <!--地图组件  -->
-  <component-map navigateToAddCat='{{navigateToAddCat}}'>
+  <!--地图组件 catCoordinates='{{catCoordinates}}' helpInstitutions='{{helpInstitutions}}' -->
+  <component-map navigateToAddCat='{{navigateToAddCat}}' >
   </component-map> 
 </view>

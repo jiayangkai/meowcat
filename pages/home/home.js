@@ -9,7 +9,18 @@ Page({
      * 判断是否点击跳转到添加猫页面
      * @type {Boolean}
      */
-    navigateToAddCat: false
+    navigateToAddCat: false,
+    /*
+     * 获取猫坐标
+     * @type {Array}
+     * 
+     */
+    // catCoordinates: [],
+     /*
+     * 获取帮助机构坐标
+     * @type {Array}
+     */
+    // helpInstitutions: []
   },
 
   /**

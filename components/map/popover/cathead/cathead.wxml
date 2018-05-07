@@ -1,3 +1,0 @@
-<view class="cathead" style="left:{{left}};top:{{top}}">
-<image src="{{src}}" style="height:80rpx;width:80rpx"></image>
-</view>

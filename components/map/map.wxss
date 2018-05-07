@@ -48,6 +48,7 @@
   margin:15px;
   padding:1.5px;
   width: 80rpx;
+  border-radius: 50rpx;
 }
 
 .current-location-shadow{
@@ -60,7 +61,8 @@
   box-sizing: content-box;
   background: rgba(0,0,0,.2);
   opacity: .6;
-  z-index: 0
+  z-index: 0;
+  box-shadow: 0 0 25rpx rgba(0,0,0,.2);
 }
 
 .current-location{
@@ -68,7 +70,13 @@
   width: 80rpx;
   height: 80rpx;
   border-radius: 50rpx;
-  box-shadow: 0 0 25rpx rgba(0,0,0,.2);
-  background: rgba(255,255,255,.9);
+  background: rgba(255,255,255,1);
   z-index: 100
+}
+
+.navImg{
+  padding:20rpx;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50rpx;
 }

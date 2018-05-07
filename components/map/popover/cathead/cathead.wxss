@@ -1,6 +1,0 @@
-.cathead{
-  position: absolute;
-  width: 80rpx;
-  height: 80rpx;
-  background-color: #ffffff;
-}
