@@ -1,5 +1,8 @@
 {  
   "usingComponents": {  
-    "comMap": "../../components/map/map"  
-  }  
+    "component-map": "../../components/map/map"  
+  },
+  "navigationBarBackgroundColor": "#CD9057",
+  "navigationBarTextStyle": "#fff",
+  "navigationBarTitleText": "喵与猫寻"
 }  
