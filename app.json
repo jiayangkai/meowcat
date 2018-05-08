@@ -9,5 +9,37 @@
     "pages/profile/notices/notices",
     "pages/community/community",
     "pages/timeline/timeline"
-  ]
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喵与猫寻",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#FFD161",
+    "borderStyle": "sliver",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "寻找猫",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/profile/tabBar/home.png",
+        "selectedIconPath": "images/profile/tabBar/home_selected.png"
+      },
+      {
+        "text": "铲屎官社区",
+        "pagePath": "pages/community/community",
+        "iconPath": "images/profile/tabBar/paws.png",
+        "selectedIconPath": "images/profile/tabBar/paws_selected.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile/tabBar/people.png",
+        "selectedIconPath": "images/profile/tabBar/people_selected.png"
+      }
+    ]
+  }
 }

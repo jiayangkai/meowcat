@@ -1,0 +1,2 @@
+/* components/navigatorbar/navigator.wxss */
+@import '../../style/weui.wxss';
