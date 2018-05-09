@@ -1,2 +1,38 @@
 <!--pages/profile/notifications/notifications.wxml-->
-<text>pages/profile/notifications/notifications.wxml</text>
+<view class='contentContainer'>
+<text class='h1'>《领养须知》\n\n</text>
+<text class='abstract' decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;每一个生命都应被温柔对待，感谢您伸出对生命的援手。
+在领养之前，我们请您仔细阅读以下注意事项：\n</text>
+<text class='span'>1.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;生活稳定，经济自由，爱猫懂猫。
+有固定住所，同居成员须认可和接受宠物饲养行为；\n</text>
+<text class='span'>2.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;对领养行为有足够的心理准备，
+认真考虑领养猫后带来的一系列生活上的改变，如是否能接受猫咪的
+淘气、掉毛、咬人抓人等行为及带来的可能风险；\n</text>
+<text class='span'>3.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;领养猫咪后，须尽快前往正规宠物
+医院进行基础体检及接受猫三联、狂犬疫苗，并按医嘱定期进行相关免疫及体检；\n</text>
+<text class='span'>4.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;接受喵与猫寻的定期回访；\n</text>
+<text class='span'>5.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;建议家里的门窗和阳台安装安全地封网
+（网格片/铁丝网），防止猫咪坠落或擅自出走；\n</text>
+<text class='span'>6.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;喵与猫寻请您再次认真考虑以上须知
+内容，尊重生命，承担生命的责任。\n\n\n</text>
+<view class="line"></view>
+<text class='h1'>\n《入团须知》\n\n</text>
+<text class='abstract' decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;我们是喵星球上的利剑，喵星人的守卫。在正式加入
+喵军团之前，我们请您仔细阅读以下入团准则：\n</text>
+<text class='span'>1.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;生活稳定，时间自由，精神正常，
+对猫主子的爱必须忠诚、深沉、浓烈；\n</text>
+<text class='span'>2.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;在发现流浪猫后，须确认猫主子
+的寄居意向（外在表现为无敌意动作、愿意交流）和健康状态；\n</text>
+<text class='span'>3.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;在捕获野生流浪猫前，建议做好
+防护措施，如戴上橡胶手套，避免抓伤；\n</text>
+<text class='span'>4.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;捕获野生流浪猫后，在自己经济
+情况允许的条件下，建议前往正规宠物医院对猫主子进行基础体检及接受猫三联、狂犬疫苗；\n</text>
+<text class='span'>5.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;捕获野生流浪猫后，及时在喵与
+猫寻平台按规定进行猫咪信息发布；\n</text>
+<text class='span'>6.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;在尚未找到领养者及救助机构之
+前，需将猫主子带回家中暂时寄养，并做好可能永久领养的心理准备，阅读《领养须知》；\n</text>
+<text class='span'>7.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;在与领养人见面前，注意保护个
+人隐私，并依据情况做好自我安全保护。如若出现人身安全意外，责任与喵与猫寻无关；\n</text>
+<text class='span'>8.</text><text class='content' decode="{{true}}">&nbsp;&nbsp;您的加入，带来的是生命的拯救。
+您，就是英雄。喵与猫寻团体在此对您表达由衷的感谢。\n</text>
+</view>

@@ -19,13 +19,13 @@ Page({
     //导航list
     navigatorbarlist: [{
       //导航页面
-      navigatorurl: '',
+      navigatorurl: '../profile/settings/settings',
       //提示图
       imgurl: '../../images/profile/setting.png',
       //提示项
       message: '设置'
     }, {
-      navigatorurl: '',
+        navigatorurl: '',
       imgurl: '../../images/profile/notifications.png',
       message: '消息通知'
     }, {
@@ -33,7 +33,7 @@ Page({
       imgurl: '../../images/profile/paws.png',
       message: '我的时间轴'
     }, {
-      navigatorurl: '',
+        navigatorurl: '../profile/notifications/notifications',
       imgurl: '../../images/profile/notice.png',
       message: '须知'
     }]
