@@ -1,1 +1,36 @@
 /* pages/cat/view/view.wxss */
+.content{
+  padding: 12px;
+}
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+button{
+  margin-bottom: 16px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing:2px
+}
+.attention{
+  background: #cd9057;
+}
+.find{
+  background: #632307;
+}
+.btn-area{
+  padding-top: 20px;
+}
+ .cat-name,.cat-feature{
+  margin-right: 44px;
+  display: inline-block;
+  width: 16%;
+} 
+ .cat-info view{
+  margin-bottom: 16px;
+} 
