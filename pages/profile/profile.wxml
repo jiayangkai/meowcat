@@ -3,7 +3,7 @@
   <view class='user'>
     <image src='{{user.url}}' class='userinfo-avatar' bacground-size='cover'></image>
     <view>{{user.name}}</view>
-    <view>毛积分：{{user.points}}</view>
+    <view>喵积分：{{user.points}}</view>
   </view>
   <!--setting  -->
   <view class='navigator_bar'>

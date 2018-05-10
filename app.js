@@ -21,7 +21,3 @@ App({
     userInfo: null
   },
 })
-  onLaunch: function () {
-
-  }
-})
