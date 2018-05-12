@@ -1,2 +1,29 @@
 <!--pages/cat/view/view.wxml-->
-<text>pages/cat/view/view.wxml</text>
+<view class='content'>
+  <!-- 轮播图 -->
+  <swiper class="swiper" indicator-dots="true" indicator-color='#fff' autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{catswiper}}" wx:for-index="index">    
+      <swiper-item>    
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+      </swiper-item>    
+    </block>   
+  </swiper>
+  <view class="btn-area">
+    <view class="body-view">
+      <!--猫的信息  -->
+      <view class='cat-info'>
+        <view>
+          <text style='color: #7f8389;' class='cat-name'>名字</text>
+          <text style='display:inline-block;width:68%'>费尔奇</text>
+        </view>
+        <view style='display:flex'>
+          <text style='color: #7f8389;' class='cat-feature'>特征</text>
+          <text style='display:inline-block;width:68%'>喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵</text>
+        </view>
+      </view>
+      <!--关注 寻找按钮  -->
+      <button class="attention" bindtap='attention'>关注它</button>
+      <button class="find" bindtap='find'>找它去</button>
+    </view>
+  </view>
+</view>
