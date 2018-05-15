@@ -33,7 +33,7 @@ Page({
       imgurl: '../../images/profile/paws.png',
       message: '我的时间轴'
     }, {
-        navigatorurl: '../profile/notifications/notifications',
+        navigatorurl: '../profile/notices/notices',
       imgurl: '../../images/profile/notice.png',
       message: '须知'
     }]
