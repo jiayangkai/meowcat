@@ -3,12 +3,12 @@
   <view class='user'>
     <image src='{{user.url}}' class='userinfo-avatar' bacground-size='cover'></image>
     <view>{{user.name}}</view>
-    <view>毛积分：{{user.points}}</view>
+    <view>喵积分：{{user.points}}</view>
   </view>
   <!--setting  -->
   <view class='navigator_bar'>
     <view class="weui-cells weui-cells_after-title">
-      <view wx:for='{{navigatorbarlist}}'>
+      <view wx:for='{{navigatorbarlist}}' wx:key="{{index}}">
         <navigatorbar navigator_url='{{item.navigatorurl}}' message='{{item.message}}' imgurl='{{item.imgurl}}' />
       </view>
     </view>

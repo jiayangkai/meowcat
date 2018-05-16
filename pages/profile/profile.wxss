@@ -1,12 +1,37 @@
 /* pages/profile/profile.wxss */
 .container{
-  height: 100%
+  height: 100vh;
+  background: #f0eff4;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  background: #cd9057;
+  padding-top:20rpx; 
+  color: #fff;
+  height: 452rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.user .userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 30rpx auto;
   border-radius: 50%;
+}
+.user .integral{
+  margin: 20rpx auto;
+}
+
+.navigator_bar{
+  background: #fff;
+  margin-top: 30rpx;
+}
+.weui-cells .weui_sub{
+  border-bottom:1rpx solid #e0e0e0;
+}
+.weui-cells .weui_sub:last-child{
+  border-bottom:0px;
 }
 
