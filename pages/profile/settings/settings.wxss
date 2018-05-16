@@ -1,1 +1,87 @@
 /* pages/profile/settings/settings.wxss */
+Page {
+  background: #F0EFF4;
+  color: #000000;
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.textStyle{
+  display: block;
+  /* margin-top: 5px; */
+  /* margin-left: 15px;
+  margin-bottom: 5px; */
+     margin-top: 10rpx; 
+     margin-left: 30rpx;
+    margin-bottom: 10rpx;  
+}
+.inputBox{
+  width: 100%;
+  /* height: 40px; */
+  height: 80rpx;
+  background:#ffffff;
+  border-bottom: #F0EFF4 solid 2rpx;
+}
+.datepicker{
+    width: 100%;
+  /* height: 40px; */
+  height: 80rpx;
+  font-size: 32rpx;
+  padding-left: 30rpx;
+  background:#ffffff;
+  line-height: 80rpx; 
+}
+label{
+  width: auto;
+  /* height: 40px;
+  font-size: 16px;
+  margin-left: 15px;
+  line-height: 40px; */
+  height: 8r0px;
+  font-size: 32rpx;
+  margin-left: 30rpx;
+  line-height: 80rpx; 
+  float: left;
+}
+.inputText{
+  width: auto;
+  /* height: 38px; */
+  height: 76rpx;
+  line-height: 76rpx; 
+  font-size: 32rpx;
+  float: left;
+}
+.newsText{
+  width: auto;
+  /* height: 40px;
+  font-size: 16px;
+  line-height: 40px; */
+     height: 80rpx;
+  font-size: 32rpx;
+  line-height: 80rpx; 
+  float: left;
+}
+switch{
+  /* line-height: 40px; */
+  line-height: 80rpx;
+  float:right;
+}
+image{
+  /* height: 32px;
+  width: 32px; */
+   height: 64rpx;
+  width: 64rpx; 
+}
+.imgContainer{
+  /* padding-left: 15px;
+  padding-top: 4px;
+  width:50px;
+  height:40px; */
+  padding-left: 30rpx;
+  padding-top: 8rpx;
+  width:100rpx;
+  height:80rpx; 
+  float:left;
+}
