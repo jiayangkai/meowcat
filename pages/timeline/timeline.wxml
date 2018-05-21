@@ -1,2 +1,63 @@
-<!--pages/timeline/timeline.wxml-->
-<text>pages/timeline/timeline.wxml</text>
+<view class="person">
+    <view class="personInfo">
+        <image class="personAvatar" src="/images/profile/timeline/personAvatar.jpeg"></image>
+        <text class="personName">名字</text>
+    </view>
+    <view class="personPost">+发帖</view>
+</view>
+<view class="timeLine">
+    <view class="timeLineItem">
+        <span class="timeDot"></span>
+        <view class="time">5月2日·下午12:37</view>
+        <view class="itemContent">
+            <text class="itemText">今天老子的心情不是很好，别惹我</text>
+            <view class="itemImage"></view>
+        </view>
+        <view class="itemOperation">
+            <view class="good"><image src="/images/profile/timeline/love.png" alt="" class='operationIcon'></image>赞</view>
+            <view class="comment"><image src="/images/profile/timeline/msg.png" alt="" class='operationIcon'></image>评论</view>
+            <view class="share">
+                <view><image src="/images/profile/timeline/share.png" alt="" class='operationIcon'></image><text bindtap="changeShareBox">分享</text></view>
+                <view class='sharebox' wx-if="{{showBox}}" >
+                    <view class='shareItem'><image src="/images/profile/timeline/wechat.png" alt="" class='operationIcon'></image><text>微信朋友</text></view>
+                    <view class='shareItem'><image src="/images/profile/timeline/friend.png" alt="" class='operationIcon'></image><text>朋友圈</text></view>
+                    <view class='shareItem'><image src="/images/profile/timeline/copy.png" alt="" class='operationIcon'></image><text>复制链接</text></view>
+                </view>
+            </view>
+        </view>
+        <view class="itemCommentList">
+            <view class="itemComment">
+                <text class="commentName">老菜鸡:</text>
+                <text>用颜色表示性别是可以的啊用颜色表示性别是可以的啊用颜色表示性别是可以的啊</text>
+            </view>
+            <view class="itemComment">
+                <text class="commentName">老菜鸡:</text>
+                <text>用颜色表示性别是可以的啊</text>
+            </view>
+            <view class="itemComment">
+                <text class="commentName">老菜鸡:</text>
+                <text>用颜色表示性别是可以的啊</text>
+            </view>
+        </view>
+    </view>
+    <view class="timeLineItem">
+        <span class="timeDot"></span>
+        <view class="time">5月2日·下午12:37</view>
+        <view class="itemContent">
+            <text class="itemText">今天老子的心情不是很好，别惹我</text>
+            <view class="itemImage"><image src="/images/c1.jpg" alt="" class='operationIcon'></image></view>
+        </view>
+        <view class="itemOperation">
+            <view class="good"><image src="/images/profile/timeline/love.png" alt="" class='operationIcon'></image>赞</view>
+            <view class="comment"><image src="/images/profile/timeline/msg.png" alt="" class='operationIcon'></image>评论</view>
+            <view class="share">
+                <view><image src="/images/profile/timeline/share.png" alt="" class='operationIcon'></image><text bindtap="changeShareBox">分享</text></view>
+                <view class='sharebox' wx-if="{{showBox}}" >
+                    <view class='shareItem'><image src="/images/profile/timeline/wechat.png" alt="" class='operationIcon'></image><text>微信朋友</text></view>
+                    <view class='shareItem'><image src="/images/profile/timeline/friend.png" alt="" class='operationIcon'></image><text>朋友圈</text></view>
+                    <view class='shareItem'><image src="/images/profile/timeline/copy.png" alt="" class='operationIcon'></image><text>复制链接</text></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
