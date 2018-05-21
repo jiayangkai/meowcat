@@ -13,7 +13,4 @@
       </view>
     </view>
   </view>
-  <view>
-    <navigator url="../timeline/timeline" open-type="redirect">测试</navigator>
-  </view>
 </view>
