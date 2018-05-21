@@ -1,2 +1,19 @@
 <!--pages/profile/settings/settings.wxml-->
-<text>pages/profile/settings/settings.wxml</text>
+<view>
+<text class='textStyle'>个人信息</text>
+<view class="inputBox">
+  <label >姓名：</label>
+  <input type='text' class='inputText' bindblur='saveName' value='{{user.name}}'></input>
+</view>
+ <picker class="datepicker" mode="date" value="{{user.birth}}" start="1960-01-01" bindchange="bindDateChange">
+ 生日：{{user.birth}}
+  </picker>
+<text class='textStyle'>基本设置</text>
+<view class="inputBox">
+  <view class="imgContainer">
+    <image src='../../../images/profile/info.png'></image>
+  </view>
+  <text class='newsText'>消息通知</text>
+  <switch bindchange='isInfoOk' checked="{{isNeedInfo}}" color='#CD9057'></switch>
+</view>
+</view>

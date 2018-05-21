@@ -20,14 +20,14 @@ Page({
     navigatorbarlist: [
     {
       //导航页面
-      navigatorurl: '',
+      navigatorurl: '../profile/settings/settings',
       //提示图
       imgurl: '../../images/profile/setting.png',
       //提示项
       message: '设置',
       url: '../timeline/timeline'
     }, {
-      navigatorurl: '',
+        navigatorurl: '',
       imgurl: '../../images/profile/notifications.png',
       message: '消息通知',
       url: '../timeline/timeline'
@@ -37,7 +37,7 @@ Page({
       message: '我的时间轴',
       url:'../timeline/timeline'
     }, {
-      navigatorurl: '',
+        navigatorurl: '../profile/notices/notices',
       imgurl: '../../images/profile/notice.png',
       message: '须知',
       url: '../timeline/timeline'
