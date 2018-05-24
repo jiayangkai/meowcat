@@ -1,1 +1,128 @@
-/* pages/timeline/timeline.wxss */
+.person{
+  width: 100%;
+  padding:14px 16px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.person .personInfo{
+  display: flex;
+}
+.person .personAvatar{
+  display: inline-block;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+.person .personName{
+  line-height: 38px;
+  margin-left: 12px;
+  font-size: 14px;
+  color: #cd9057;
+}
+.person .personPost{
+  color: #cd9057;
+  line-height: 38px;
+}
+.timeDot{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border:1px solid #cd9057;
+  display: inline-block;
+  background-color: #fff;
+  position: absolute;
+  left:-6px;
+}
+.timeDot:before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #cd9057;
+  margin-left: 1px;
+  margin-bottom: 11px;
+}
+.timeLineItem{
+  width: 288px;
+  padding:0 0 10px 24px;
+  border-left: 1px solid #cd9057;
+  position: relative;
+  margin:0 auto;
+}
+.timeLineItem .time{
+  font-size: 10px;
+  line-height: 12px;
+  color: #cd9057;
+}
+.timeLineItem .itemContent .itemText{
+  padding:6px 0;
+  font-size: 14px;
+}
+.timeLineItem .itemContent .itemImage image{
+  max-width: 288px;
+  max-height: 150px;
+}
+.timeLineItem .itemOperation{
+  list-style: none;
+  display: flex;
+  padding:8px 0;
+  font-size: 10px;
+  color: #7f8389;
+  line-height: 12px;
+}
+.timeLineItem .itemOperation view{
+  line-height: 14px;
+  margin-right: 10px;
+}
+.timeLineItem .itemOperation .operationIcon{
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  padding-right: 5px;
+}
+.timeLineItem .share{
+  position: relative
+}
+.timeLineItem .share .sharebox{
+  background-color: #e0e0e0;
+  padding:0;
+  list-style: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  position:absolute;
+  bottom:18px;
+}
+.timeLineItem .share .sharebox .shareItem{
+  width: 86px;
+  height: 23px;
+  line-height: 23px;
+  color: #263238;
+  background-color: #fff;
+  margin-bottom: 1px;
+  padding:0 8px;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+.timeLineItem .share .sharebox .shareItem image{
+  vertical-align: -2px;
+}
+.timeLineItem .share .sharebox .shareItem:last-child{
+  margin:0;
+}
+.timeLineItem .itemCommentList{
+  width: 100%;
+  padding:7px;
+  box-sizing: border-box;
+  background: #efefef;
+  list-style: none;
+}
+.timeLineItem .itemCommentList view{
+  font-size: 12px;
+  color: #7f8389;
+}
+.timeLineItem .itemCommentList .commentName{
+  color: #263238;
+}

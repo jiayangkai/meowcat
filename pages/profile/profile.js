@@ -17,25 +17,30 @@ Page({
     //未读消息数量
     noticeCount: 0,
     //导航list
-    navigatorbarlist: [{
+    navigatorbarlist: [
+    {
       //导航页面
       navigatorurl: '../profile/settings/settings',
       //提示图
       imgurl: '../../images/profile/setting.png',
       //提示项
-      message: '设置'
+      message: '设置',
+      url: '../timeline/timeline'
     }, {
         navigatorurl: '',
       imgurl: '../../images/profile/notifications.png',
-      message: '消息通知'
+      message: '消息通知',
+      url: '../timeline/timeline'
     }, {
       navigatorurl: '',
       imgurl: '../../images/profile/paws.png',
-      message: '我的时间轴'
+      message: '我的时间轴',
+      url:'../timeline/timeline'
     }, {
         navigatorurl: '../profile/notices/notices',
       imgurl: '../../images/profile/notice.png',
-      message: '须知'
+      message: '须知',
+      url: '../timeline/timeline'
     }]
 
   },
