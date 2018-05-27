@@ -8,13 +8,9 @@
   <!--setting  -->
   <view class='navigator_bar'>
     <view class="weui-cells weui-cells_after-title">
-<<<<<<< HEAD
-      <view wx:for='{{navigatorbarlist}}'>
-        <navigatorbar navigator_url='{{item.navigatorurl}}' message='{{item.message}}' imgurl='{{item.imgurl}}'/>
-=======
       <view wx:for='{{navigatorbarlist}}' wx:key="{{index}}">
-        <navigatorbar navigator_url='{{item.navigatorurl}}' message='{{item.message}}' imgurl='{{item.imgurl}}' />
->>>>>>> 5dbd3cbfbdd0677b1e8b41dcda03af80f45cfcbe
+        <navigatorbar navigator_url='{{item.navigatorurl}}' message='{{item.message}}' 
+        imgurl='{{item.imgurl}}' />
       </view>
     </view>
   </view>
